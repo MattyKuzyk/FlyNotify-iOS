@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		369761E81ACC4B90000DFF21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369761E71ACC4B90000DFF21 /* AppDelegate.swift */; };
+		369761EA1ACC4B90000DFF21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369761E91ACC4B90000DFF21 /* ViewController.swift */; };
+		369761ED1ACC4B90000DFF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369761EB1ACC4B90000DFF21 /* Main.storyboard */; };
+		369761EF1ACC4B90000DFF21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 369761EE1ACC4B90000DFF21 /* Images.xcassets */; };
+		369761F21ACC4B90000DFF21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 369761F01ACC4B90000DFF21 /* LaunchScreen.xib */; };
+		369761FE1ACC4B91000DFF21 /* FlyNotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369761FD1ACC4B91000DFF21 /* FlyNotifyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		369761F81ACC4B91000DFF21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 369761DA1ACC4B90000DFF21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 369761E11ACC4B90000DFF21;
+			remoteInfo = FlyNotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		369761E21ACC4B90000DFF21 /* FlyNotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyNotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		369761E61ACC4B90000DFF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		369761E71ACC4B90000DFF21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		369761E91ACC4B90000DFF21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		369761EC1ACC4B90000DFF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		369761EE1ACC4B90000DFF21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		369761F11ACC4B90000DFF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		369761F71ACC4B91000DFF21 /* FlyNotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyNotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		369761FC1ACC4B91000DFF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		369761FD1ACC4B91000DFF21 /* FlyNotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyNotifyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		369761DF1ACC4B90000DFF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369761F41ACC4B91000DFF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		369761D91ACC4B90000DFF21 = {
+			isa = PBXGroup;
+			children = (
+				369761E41ACC4B90000DFF21 /* FlyNotify */,
+				369761FA1ACC4B91000DFF21 /* FlyNotifyTests */,
+				369761E31ACC4B90000DFF21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		369761E31ACC4B90000DFF21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				369761E21ACC4B90000DFF21 /* FlyNotify.app */,
+				369761F71ACC4B91000DFF21 /* FlyNotifyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		369761E41ACC4B90000DFF21 /* FlyNotify */ = {
+			isa = PBXGroup;
+			children = (
+				369761E71ACC4B90000DFF21 /* AppDelegate.swift */,
+				369761E91ACC4B90000DFF21 /* ViewController.swift */,
+				369761EB1ACC4B90000DFF21 /* Main.storyboard */,
+				369761EE1ACC4B90000DFF21 /* Images.xcassets */,
+				369761F01ACC4B90000DFF21 /* LaunchScreen.xib */,
+				369761E51ACC4B90000DFF21 /* Supporting Files */,
+			);
+			path = FlyNotify;
+			sourceTree = "<group>";
+		};
+		369761E51ACC4B90000DFF21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				369761E61ACC4B90000DFF21 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		369761FA1ACC4B91000DFF21 /* FlyNotifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				369761FD1ACC4B91000DFF21 /* FlyNotifyTests.swift */,
+				369761FB1ACC4B91000DFF21 /* Supporting Files */,
+			);
+			path = FlyNotifyTests;
+			sourceTree = "<group>";
+		};
+		369761FB1ACC4B91000DFF21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				369761FC1ACC4B91000DFF21 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		369761E11ACC4B90000DFF21 /* FlyNotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369762011ACC4B91000DFF21 /* Build configuration list for PBXNativeTarget "FlyNotify" */;
+			buildPhases = (
+				369761DE1ACC4B90000DFF21 /* Sources */,
+				369761DF1ACC4B90000DFF21 /* Frameworks */,
+				369761E01ACC4B90000DFF21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyNotify;
+			productName = FlyNotify;
+			productReference = 369761E21ACC4B90000DFF21 /* FlyNotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		369761F61ACC4B91000DFF21 /* FlyNotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369762041ACC4B91000DFF21 /* Build configuration list for PBXNativeTarget "FlyNotifyTests" */;
+			buildPhases = (
+				369761F31ACC4B91000DFF21 /* Sources */,
+				369761F41ACC4B91000DFF21 /* Frameworks */,
+				369761F51ACC4B91000DFF21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				369761F91ACC4B91000DFF21 /* PBXTargetDependency */,
+			);
+			name = FlyNotifyTests;
+			productName = FlyNotifyTests;
+			productReference = 369761F71ACC4B91000DFF21 /* FlyNotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		369761DA1ACC4B90000DFF21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Matthew Kuzyk";
+				TargetAttributes = {
+					369761E11ACC4B90000DFF21 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					369761F61ACC4B91000DFF21 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 369761E11ACC4B90000DFF21;
+					};
+				};
+			};
+			buildConfigurationList = 369761DD1ACC4B90000DFF21 /* Build configuration list for PBXProject "FlyNotify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 369761D91ACC4B90000DFF21;
+			productRefGroup = 369761E31ACC4B90000DFF21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				369761E11ACC4B90000DFF21 /* FlyNotify */,
+				369761F61ACC4B91000DFF21 /* FlyNotifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		369761E01ACC4B90000DFF21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369761ED1ACC4B90000DFF21 /* Main.storyboard in Resources */,
+				369761F21ACC4B90000DFF21 /* LaunchScreen.xib in Resources */,
+				369761EF1ACC4B90000DFF21 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369761F51ACC4B91000DFF21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		369761DE1ACC4B90000DFF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369761EA1ACC4B90000DFF21 /* ViewController.swift in Sources */,
+				369761E81ACC4B90000DFF21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369761F31ACC4B91000DFF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369761FE1ACC4B91000DFF21 /* FlyNotifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		369761F91ACC4B91000DFF21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 369761E11ACC4B90000DFF21 /* FlyNotify */;
+			targetProxy = 369761F81ACC4B91000DFF21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		369761EB1ACC4B90000DFF21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				369761EC1ACC4B90000DFF21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		369761F01ACC4B90000DFF21 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				369761F11ACC4B90000DFF21 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		369761FF1ACC4B91000DFF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		369762001ACC4B91000DFF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		369762021ACC4B91000DFF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyNotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		369762031ACC4B91000DFF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyNotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		369762051ACC4B91000DFF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyNotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyNotify.app/FlyNotify";
+			};
+			name = Debug;
+		};
+		369762061ACC4B91000DFF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlyNotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyNotify.app/FlyNotify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		369761DD1ACC4B90000DFF21 /* Build configuration list for PBXProject "FlyNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369761FF1ACC4B91000DFF21 /* Debug */,
+				369762001ACC4B91000DFF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369762011ACC4B91000DFF21 /* Build configuration list for PBXNativeTarget "FlyNotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369762021ACC4B91000DFF21 /* Debug */,
+				369762031ACC4B91000DFF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		369762041ACC4B91000DFF21 /* Build configuration list for PBXNativeTarget "FlyNotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369762051ACC4B91000DFF21 /* Debug */,
+				369762061ACC4B91000DFF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 369761DA1ACC4B90000DFF21 /* Project object */;
+}
