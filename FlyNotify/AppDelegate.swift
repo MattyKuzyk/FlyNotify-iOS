@@ -16,6 +16,31 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+
+        
+        var notifAction:UIMutableUserNotificationAction = UIMutableUserNotificationAction()
+        
+        notifAction.identifier = "FLY"
+        notifAction.title = "FlyNotify"
+        notifAction.authenticationRequired = false
+        
+        let actions:NSArray = [notifAction]
+        
+        var notifCategory:UIMutableUserNotificationCategory = UIMutableUserNotificationCategory()
+        
+        notifCategory.identifier = "CATEGORY"
+        notifCategory.setActions(actions, forContext: UIUserNotificationActionContext.Default)
+        
+        let categories:NSSet = NSSet(objects: notifCategory)
+        
+        let types:UIUserNotificationType = UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound
+        
+        let mySettings:UIUserNotificationSettings = UIUserNotificationSettings(forTypes: types, categories: categories)
+        
+        UIApplication.sharedApplication().registerUserNotificationSettings(mySettings)
+        
+        
         return true
     }
 
