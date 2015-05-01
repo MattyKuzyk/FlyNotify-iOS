@@ -30,13 +30,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var notifCategory:UIMutableUserNotificationCategory = UIMutableUserNotificationCategory()
         
         notifCategory.identifier = "CATEGORY"
-        notifCategory.setActions(actions, forContext: UIUserNotificationActionContext.Default)
+        notifCategory.setActions(actions as [AnyObject], forContext: UIUserNotificationActionContext.Default)
         
         let categories:NSSet = NSSet(objects: notifCategory)
         
         let types:UIUserNotificationType = UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound
         
-        let mySettings:UIUserNotificationSettings = UIUserNotificationSettings(forTypes: types, categories: categories)
+        let mySettings:UIUserNotificationSettings = UIUserNotificationSettings(forTypes: types, categories: categories as Set<NSObject>)
         
         UIApplication.sharedApplication().registerUserNotificationSettings(mySettings)
         

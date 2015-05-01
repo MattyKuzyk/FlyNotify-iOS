@@ -80,14 +80,14 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     func peripheral(peripheral: CBPeripheral!, didDiscoverServices error: NSError!) {
         for service in peripheral.services {
             NSLog("Discovered service: %@", service.UUIDString)
-            peripheral.discoverCharacteristics(nil, forService: service as CBService)
+            peripheral.discoverCharacteristics(nil, forService: service as! CBService)
         }
     }
     
     // Invoked when you discover the characteristics of a specified service.
     func peripheral(peripheral: CBPeripheral!, didDiscoverCharacteristicsForService service: CBService!, error: NSError!) {
         for characteristic in service.characteristics {
-            self.peripheral.setNotifyValue(true, forCharacteristic: characteristic as CBCharacteristic)
+            self.peripheral.setNotifyValue(true, forCharacteristic: characteristic as! CBCharacteristic)
         }
     }
     
